@@ -1,0 +1,28 @@
+.social {
+    position: relative;
+    padding-left: 100px;
+
+    &-link {
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19 / 14;
+        letter-spacing: 0.2em;
+        &:first-child {
+            display: flex;
+            align-items: center;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 60px;
+                height: 1px;
+                background-color: #000;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 24px;
+        }
+    }
+}

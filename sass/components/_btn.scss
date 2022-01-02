@@ -1,16 +1,19 @@
 .btn {
     padding: 12px 20px;
-    outline: 1px solid #FF6C00;
+
+    outline: 1px solid #ff6c00;
     border-radius: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16 / 12;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
     &:hover,
     &:focus {
-        
     }
     @media (min-width: 768px) {
-        
     }
 
     @media (min-width: 1440px) {
-        
     }
 }

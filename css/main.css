@@ -8,11 +8,10 @@
 }
 
 body {
-  height: 100%;
   font-size: 14px;
-  line-height: 1.25;
-  font-family: sans-serif;
-  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #303030;
 }
 
 body.modal-open {
@@ -116,6 +115,11 @@ textarea {
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
   color: #303030;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__link:hover, .nav__link:focus {
+  color: #ff6c00;
 }
 
 .nav__contacts {
@@ -125,33 +129,11 @@ textarea {
 .nav__tel {
   display: block;
   margin-bottom: 24px;
-}
-
-.nav__social {
-  position: relative;
-  padding-left: 100px;
-}
-
-.nav__social-link {
-  display: block;
-}
-
-.nav__social-link:first-child {
-  display: flex;
-  align-items: center;
-}
-
-.nav__social-link:first-child::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 60px;
-  height: 1px;
-  background-color: #000;
-}
-
-.nav__social-link:not(:last-child) {
-  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25 / 18;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -160,6 +142,23 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 50px 0 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .section {
+    padding: 85px 0 85px;
+  }
 }
 
 .container {
@@ -234,7 +233,43 @@ textarea {
 
 .btn {
   padding: 12px 20px;
-  outline: 1px solid #FF6C00;
+  outline: 1px solid #ff6c00;
   border-radius: 25px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16 / 12;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.social {
+  position: relative;
+  padding-left: 100px;
+}
+
+.social-link {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19 / 14;
+  letter-spacing: 0.2em;
+}
+
+.social-link:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.social-link:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+}
+
+.social-link:not(:last-child) {
+  margin-bottom: 24px;
 }
 /*# sourceMappingURL=main.css.map */

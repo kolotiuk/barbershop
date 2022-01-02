@@ -38,13 +38,19 @@
     &__link {
         display: inline-block;
         padding: 12px 0;
+
         font-weight: 600;
         font-size: 18px;
         line-height: calc(25 / 18);
-
         letter-spacing: 0.1em;
+        color: $blackColor;
 
-        color: #303030;
+        transition: color 250ms $cubic-bezier;
+
+        &:hover,
+        &:focus {
+            color: $orangeColor;
+        }
     }
 
     &__contacts {
@@ -54,30 +60,12 @@
     &__tel {
         display: block;
         margin-bottom: 24px;
-    }
 
-    &__social {
-        position: relative;
-        padding-left: 100px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25 / 18;
 
-        &-link {
-            display: block;
-            &:first-child {
-                display: flex;
-                align-items: center;
-                &::before {
-                    content: "";
-                    position: absolute;
-                    left: 0;
-                    width: 60px;
-                    height: 1px;
-                    background-color: #000;
-                }
-            }
-
-            &:not(:last-child) {
-                margin-bottom: 24px;
-            }
-        }
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
     }
 }
