@@ -1,0 +1,24 @@
+.about {
+    &__title {
+        width: 330px;
+        font-size: 28px;
+    }
+
+    &__aftertitle {
+        margin-bottom: 20px;
+
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.02em;
+        color: $blackLightenColor;
+    }
+
+    &__text {
+        margin-bottom: 40px;
+
+        font-size: 14px;
+        line-height: 1.86;
+        letter-spacing: 0.02em;
+        color: $blackLightenColor;
+    }
+}

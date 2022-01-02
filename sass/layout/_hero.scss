@@ -1,7 +1,6 @@
 .hero {
     height: 580px;
     padding-top: 208px;
-    padding-left: 31px;
 
     background-image: url("../images/hero/hero-img.jpg");
     background-position: center;
@@ -10,29 +9,6 @@
 
     &__right {
         width: 306px;
-    }
-
-    &__pretitle {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 1.37;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: rgba(157, 164, 189, 0.6);
-
-        &:before {
-            content: "";
-            display: inline-block;
-            width: 60px;
-            height: 1px;
-            margin-right: 20px;
-
-            background-color: rgba(157, 164, 189, 0.6);
-        }
     }
 
     &__title {
@@ -51,6 +27,6 @@
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.02em;
-        color: #9da4bd;
+        color: $greyColor;
     }
 }

@@ -20,7 +20,9 @@
         padding-top: 118px;
         padding-left: 40px;
 
-        background-color: #fff;
+        box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.04),
+            -2px 0px 4px rgba(0, 0, 0, 0.08), -1px 0px 3px rgba(0, 0, 0, 0.16);
+        background-color: $whiteColor;
         transform: translateX(100%);
         transition: transform 250ms $cubic-bezier;
 
