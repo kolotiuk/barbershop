@@ -1,16 +1,15 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./base/base";
-// @import "./components/fonts";
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/footer";
-
 
 @import "./components/section";
 @import "./components/container";
 @import "./components/burger";
 @import "./components/btn";
 @import "./components/socials";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";
 
 
