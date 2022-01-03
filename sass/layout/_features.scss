@@ -1,0 +1,67 @@
+.features {
+    &__content {
+        margin-bottom: 44px;
+    }
+
+    &__title {
+        color: $blackColor;
+    }
+
+    &__aftertitle {
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+        color: $blackLightenColor;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 30px;
+    }
+
+    &__item {
+        flex: 0 0 193px;
+        height: 133px;
+        padding: 20px 33px;
+        text-align: center;
+
+        background-color: $bgColor;
+
+        &:nth-child(2n) {
+            margin-top: 35px;
+            margin-bottom: -35px;
+        }
+    }
+
+    &__num {
+        position: relative;
+
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        color: $blackColor;
+
+        &::after {
+            content: "+";
+            position: absolute;
+            right: -20px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.37;
+            color: $orangeColor;
+        }
+    }
+
+    &__text {
+        margin-top: 15px;
+
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: $blackColor;
+    }
+}
