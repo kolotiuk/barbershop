@@ -1,0 +1,64 @@
+.masters {
+    background-color: $bgColor;
+
+    &__item {
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-bottom: 64px;
+        }
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+
+    &__name {
+        margin-bottom: 8px;
+
+        font-size: 18px;
+        line-height: 1.38;
+        letter-spacing: 0.02em;
+        color: $blackColor;
+    }
+
+    &__profession {
+        margin-bottom: 30px;
+
+        font-size: 14px;
+        line-height: 1.35;
+        letter-spacing: 0.02em;
+        color: $orangeColor;
+    }
+
+    &__social-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__social-item {
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+
+    &__social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+
+        background-color: $whiteColor;
+        border-radius: 50%;
+
+        
+        svg {
+            transition: fill 1000ms $cubic-bezier;
+        }
+
+        &:hover svg {
+            fill: $orangeColor;
+        }
+    }
+}
