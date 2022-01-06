@@ -1,0 +1,14 @@
+.gallery {
+    &__pre-title {
+        margin-bottom: 44px;
+    }
+
+    &__list {
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}

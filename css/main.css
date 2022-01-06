@@ -548,4 +548,12 @@ textarea {
 .masters__social-link:hover svg {
   fill: #ff6c00;
 }
+
+.gallery__pre-title {
+  margin-bottom: 44px;
+}
+
+.gallery__item:not(:last-child) {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
