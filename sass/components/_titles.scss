@@ -27,6 +27,14 @@
             background-color: $greyColorRgba;
         }
     }
+
+    &-white {
+        color: $whiteColor;
+
+        &:before {
+            background-color: $whiteColor;
+        }
+    }
 }
 
 .section-title {

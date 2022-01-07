@@ -231,6 +231,14 @@ textarea {
   background-color: rgba(157, 164, 189, 0.6);
 }
 
+.pre-title-white {
+  color: #ffffff;
+}
+
+.pre-title-white:before {
+  background-color: #ffffff;
+}
+
 .section-title {
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
@@ -608,5 +616,44 @@ textarea {
 .form__textarea {
   min-height: 70px;
   margin-bottom: 44px;
+}
+
+.contacts {
+  background-image: url(../images/contacts/contacts-bg.jpg);
+}
+
+.contacts__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contacts__address {
+  margin-bottom: 44px;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  font-style: normal;
+}
+
+.contacts__location {
+  margin-bottom: 20px;
+}
+
+.contacts__tel {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contacts__email {
+  display: block;
+  text-decoration: underline;
+}
+
+.contacts__everyday {
+  color: #9da4bd;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=main.css.map */

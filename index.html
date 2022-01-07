@@ -308,23 +308,52 @@
         </section>
         <!-- /.section gallery -->
 
-        <section class="section entry">
-            <div class="container">
-                <h2 class="entry__title section-title">Онлайн-запись</h2>
-                <form class="form" autocomplete="off">
-                    <label for="name" class="form__label">
-                        <input type="text" class="form__input" name="name" id="name" placeholder="ИМЯ*">
-                    </label>
-                    <label for="tel" class="form__label">
-                        <input type="tel" class="form__input" name="tel" id="tel" placeholder="ТЕЛЕФОН*">
-                    </label>
-                    <textarea class="form__textarea" name="comment" id="comment" placeholder="СООБЩЕНИЕ"></textarea>
+        <section class="wrap">
+            <div class="section entry">
+                <div class="container">
+                    <h2 class="entry__title section-title">Онлайн-запись</h2>
+                    <form class="form" autocomplete="off">
+                        <label for="name" class="form__label">
+                            <input type="text" class="form__input" name="name" id="name" placeholder="ИМЯ*">
+                        </label>
+                        <label for="tel" class="form__label">
+                            <input type="tel" class="form__input" name="tel" id="tel" placeholder="ТЕЛЕФОН*">
+                        </label>
+                        <textarea class="form__textarea" name="comment" id="comment" placeholder="СООБЩЕНИЕ"></textarea>
 
-                    <button class="entry__btn btn" type="submit">отправить</button>
-                </form>
+                        <button class="entry__btn btn" type="submit">отправить</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section contacts">
+                <div class="container">
+                    <h2 class="contacts__title section-title">Контакты</h2>
+                    <div class="contacts__wrap">
+                        <address class="contacts__address">
+                            <p class="contacts__location">
+                                ул. Васильковая, 7А, Киев, 08132
+                            </p>
+                            <a href="tel:+380441111111" class="contacts__tel">
+                                +38 044 111 11 11
+                            </a>
+                            <a href="mailto:barbershop@email.com" class="contacts__email">
+                                barbershop@email.com
+                            </a>
+                        </address>
+                        <div class="contacts__work">
+                            <p class="contacts__time pre-title pre-title-white">
+                                время работы
+                            </p>
+                            <p class="contacts__everyday">
+                                Ежедневно с 9:00 до 22:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- /.section entry -->
+        <!-- /.section -->
     </main>
 
     <script src="./js/burger.js" type="module"></script>

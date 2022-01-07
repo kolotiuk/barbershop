@@ -1,0 +1,50 @@
+.contacts {
+    background-image: url(../images/contacts/contacts-bg.jpg);
+    // .contacts__title
+    &__title {
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+    // .contacts__wrap
+    &__wrap {
+    }
+    // .contacts__address
+    &__address {
+        margin-bottom: 44px;
+
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+        color: $greyColor;
+        font-style: normal;
+    }
+    // .contacts__location
+    &__location {
+        margin-bottom: 20px;
+    }
+    // .contacts__tel
+    &__tel {
+        display: block;
+        margin-bottom: 20px;
+    }
+    // .contacts__email
+    &__email {
+        display: block;
+
+        text-decoration: underline;
+    }
+    // .contacts__work
+    &__work {
+    }
+    // .contacts__time
+    &__time {
+    }
+    // .contacts__everyday
+    &__everyday {
+        color: $greyColor;
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+    }
+}
