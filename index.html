@@ -178,7 +178,8 @@
                 <h2 class="section-title section-title-black">Наши мастера</h2>
                 <ul class="masters__list">
                     <li class="masters__item">
-                        <img class="masters__img" src="./images/masters/masters-img1.jpg" alt="Парень стрижет" width="418">
+                        <img class="masters__img" src="./images/masters/masters-img1.jpg" alt="Парень стрижет"
+                            width="418">
                         <p class="masters__name">John Smith</p>
                         <p class="masters__profession">Extreme Barber</p>
                         <ul class="masters__social-list">
@@ -213,7 +214,8 @@
                         </ul>
                     </li>
                     <li class="masters__item">
-                        <img class="masters__img" src="./images/masters/masters-img2.jpg" alt="Парень стрижет" width="418">
+                        <img class="masters__img" src="./images/masters/masters-img2.jpg" alt="Парень стрижет"
+                            width="418">
                         <p class="masters__name">Michele Doe</p>
                         <p class="masters__profession">Extreme Barber</p>
                         <ul class="masters__social-list">
@@ -248,7 +250,8 @@
                         </ul>
                     </li>
                     <li class="masters__item">
-                        <img class="masters__img" src="./images/masters/masters-img3.jpg" alt="Парень стрижет" width="418">
+                        <img class="masters__img" src="./images/masters/masters-img3.jpg" alt="Парень стрижет"
+                            width="418">
                         <p class="masters__name">Alan Black</p>
                         <p class="masters__profession">Extreme Barber</p>
                         <ul class="masters__social-list">
@@ -292,14 +295,36 @@
             <div class="container">
                 <p class="gallery__pre-title pre-title">На латинском языке “барба” означает “борода”</p>
                 <ul class="gallery__list">
-                    <li class="gallery__item"><img src="./images/gallery/gallery-img1.jpg" alt="Мужчина стрижет голову" class="gallery__img"></li>
-                    <li class="gallery__item"><img src="./images/gallery/gallery-img2.jpg" alt="Мужчина стрижет бороду" class="gallery__img"></li>
-                    <li class="gallery__item"><img src="./images/gallery/gallery-img3.jpg" alt="Мужчина стрижет голову" class="gallery__img"></li>
-                    <li class="gallery__item"><img src="./images/gallery/gallery-img4.jpg" alt="Мужчина стрижет голову" class="gallery__img"></li>
+                    <li class="gallery__item"><img src="./images/gallery/gallery-img1.jpg" alt="Мужчина стрижет голову"
+                            class="gallery__img"></li>
+                    <li class="gallery__item"><img src="./images/gallery/gallery-img2.jpg" alt="Мужчина стрижет бороду"
+                            class="gallery__img"></li>
+                    <li class="gallery__item"><img src="./images/gallery/gallery-img3.jpg" alt="Мужчина стрижет голову"
+                            class="gallery__img"></li>
+                    <li class="gallery__item"><img src="./images/gallery/gallery-img4.jpg" alt="Мужчина стрижет голову"
+                            class="gallery__img"></li>
                 </ul>
             </div>
         </section>
         <!-- /.section gallery -->
+
+        <section class="section entry">
+            <div class="container">
+                <h2 class="entry__title section-title">Онлайн-запись</h2>
+                <form class="form" autocomplete="off">
+                    <label for="name" class="form__label">
+                        <input type="text" class="form__input" name="name" id="name" placeholder="ИМЯ*">
+                    </label>
+                    <label for="tel" class="form__label">
+                        <input type="tel" class="form__input" name="tel" id="tel" placeholder="ТЕЛЕФОН*">
+                    </label>
+                    <textarea class="form__textarea" name="comment" id="comment" placeholder="СООБЩЕНИЕ"></textarea>
+
+                    <button class="entry__btn btn" type="submit">отправить</button>
+                </form>
+            </div>
+        </section>
+        <!-- /.section entry -->
     </main>
 
     <script src="./js/burger.js" type="module"></script>
