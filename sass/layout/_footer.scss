@@ -1,0 +1,35 @@
+.footer {
+    padding: 44px 0;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__copy {
+        color: $greyColor;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 1.36;
+        letter-spacing: 0.2em;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 60px;
+            height: 1px;
+            background-color: #000;
+        }
+
+        &-link {
+            margin-left: 30px;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 1.36;
+            letter-spacing: 0.2em;
+        }
+    }
+}

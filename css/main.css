@@ -656,4 +656,42 @@ textarea {
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
+
+.footer {
+  padding: 44px 0;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  color: #9da4bd;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+}
+
+.footer__social-link {
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
 /*# sourceMappingURL=main.css.map */
